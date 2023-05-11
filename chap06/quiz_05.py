@@ -7,6 +7,6 @@ for i in range(1, 51): # 1~50 승객 번호
        print("[O] {0}번 째 손님 (소요시간: {1}분)".format(i, time))
        count += 1
     else: # 매칭 실패한 경우
-        print("[ ] {0}번 째 손님 (소요시간: {1}분)".format(i, time))
+        print("[X] {0}번 째 손님 (소요시간: {1}분)".format(i, time))
 
-print("총 탑승 승객: {0} 분".format(count))
+print("총 탑승 승객: {0} 분 입니다.".format(count))
