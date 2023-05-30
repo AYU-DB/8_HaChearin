@@ -16,3 +16,10 @@ for subject, score in scores.items():
 print("\n")
 for subject, score in scores.items():
     print(subject.ljust(8), str(score))
+
+# 은행 대기순번표
+
+print("\n")
+answer = 10
+print(type(answer))
+# print("입력하신 값은 " + answer + "입니다.")
