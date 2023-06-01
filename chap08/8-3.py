@@ -6,3 +6,7 @@ score_file.close()
 score_file = open("score.txt", "a", encoding = "utf8")
 score_file.write("과학: 80\n코딩: 100")
 score_file.close()
+
+score_file = open("score.txt", "r", encoding = "utf8")
+print(score_file.read())
+score_file.close()
