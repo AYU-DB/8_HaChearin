@@ -31,7 +31,7 @@ attack(name, "1시", damage)
 attack(tank_name, "2시", tank_damage)
 attack(tank2_name, "2시", tank2_damage)
 
-print("아래는 클래스로 생성 후 출력---------\n")
+print("\n---------아래는 클래스로 생성 후 출력---------\n")
 
 class Unit:
     def __init__(self, name, hp, damage):
