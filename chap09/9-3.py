@@ -7,3 +7,4 @@ class Unit:
         print("체력 {0}, 공격력 {1}".format(self.hp, self.damage))
 
 wraith1 = Unit("레이스", 80, 5)
+print("유닛 이름: {0}, 공격력: {1}".format(wraith1.name, wraith1.damage))
