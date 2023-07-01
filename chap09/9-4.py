@@ -28,5 +28,5 @@ class AttackUnit:
 firebat1 = AttackUnit("파이어뱃", 50, 16)
 firebat1.attack("5시")
 
-firebat1.damage(25)
-firebat1.damage(25)
+firebat1.damaged(25)
+firebat1.damaged(25)
