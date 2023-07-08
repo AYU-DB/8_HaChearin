@@ -1,6 +1,6 @@
 # 일반유닛
 class Unit:
-    def __init__(self, name, hp, damage):
+    def __init__(self, name, hp):
         self.name = name
         self.hp = hp
         
