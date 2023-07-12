@@ -46,3 +46,11 @@ class FlyableAttackUnit(AttackUnit, Flyable):
         AttackUnit.__init__(self, name, hp, 0, damage) # 지상 스피드는 0
         Flyable.__init__(self, flying_speed)
 
+# 벌쳐: 지상 유닛, 기동성이 좋음
+vulture = AttackUnit("벌쳐", 80, 10, 20)
+
+# 배틀크루져: 공중 유닛, 체력 굿, 공격력도 굿
+battlecruiser = FlyableAttackUnit("배틀크루저", 500, 25, 3)
+
+vulture.move("11시")
+battlecruiser.fly("9시")
