@@ -53,4 +53,4 @@ vulture = AttackUnit("벌쳐", 80, 10, 20)
 battlecruiser = FlyableAttackUnit("배틀크루저", 500, 25, 3)
 
 vulture.move("11시")
-battlecruiser.fly("9시")
+battlecruiser.fly(battlecruiser.name, "9시")
