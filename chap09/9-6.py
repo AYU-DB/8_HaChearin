@@ -40,6 +40,6 @@ class FlyableAttackUnit(AttackUnit, Flyable):
         AttackUnit.__init__(self, name, hp, damage)
         Flyable.__init__(self, flying_speed)
 
-# 발키리: 공중 공격 ㅠ짓, 한번에 14발 미사일 발사.
+# 발키리: 공중 공격 유닛, 한번에 14발 미사일 발사.
 valkyrie = FlyableAttackUnit("발키리", 200, 6, 5)
-valkyrie.fly(valkyrie)
+valkyrie.fly(valkyrie.name, "3시")
