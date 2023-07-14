@@ -64,3 +64,5 @@ def game_start():
 def game_over():
     pass
 
+game_start()
+game_over()
